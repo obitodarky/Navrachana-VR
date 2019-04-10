@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
 </head>
 <body>
-    
+    <a-scene>
+        <a-assets>
+            <img id="nuv-entrance" src="assets/nuv-entrance.jpg">
+        </a-assets>
+        <a-sky src = "#nuv-entrance"></a-sky>
+    </a-scene>        
 </body>
 </html>
